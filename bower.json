@@ -1,8 +1,9 @@
 {
-  "version": "0.0.1",
-  "private": false,
   "name": "movie-roulette",
   "description": "A movie roulette to help you choose your next movie",
-  "devDependencies": {},
-  "dependencies" : {}
+  "version": "0.0.1",
+  "private": false,
+  "devDependencies": {
+
+  }
 }
