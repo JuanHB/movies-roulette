@@ -1,3 +1,6 @@
+/*
+* The Roulette module
+* */
 (function(){
     'use strict';
 
