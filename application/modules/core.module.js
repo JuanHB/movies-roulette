@@ -6,8 +6,8 @@
 
     angular
         .module('MoviesRouletteApp.core', [
-
             // AngularJS modules
+            'ngMaterial',
             'ngMessages',
             'ngAria',
             'ngAnimate',
