@@ -4,7 +4,11 @@
 var gulp        = require('gulp');
 var inject      = require('gulp-inject');
 
+/*
+* Files paths list
+* */
 var paths = {
+    // application js paths
     appJs : [
         'application/**/*.module.js',
         'application/**/*.config.js',
