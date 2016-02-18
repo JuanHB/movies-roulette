@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "private": false,
+  "name": "movies-roulette",
+  "description": "A movie roulette to help you choose your next movie",
+  "repository" : "https://github.com/JuanHB/movies-roulette",
+  "license" : "MIT"
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-inject": "^3.0.0"
+  }
+}
