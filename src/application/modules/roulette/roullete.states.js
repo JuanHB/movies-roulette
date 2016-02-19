@@ -23,9 +23,9 @@
     function getStates() {
         return [
             {
-                state: 'main',
+                state: 'main.roulette',
+                url : '/',
                 config: {
-                    abstract : true,
                     views: {
                         'main': {templateUrl : 'application/layouts/main.layout.html'}
                     }

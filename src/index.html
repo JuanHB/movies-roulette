@@ -8,7 +8,7 @@
   Your HTML content here
 -->
 
-Hello World!
+<div ui-view="main"></div>
 
 <!-- Angular Material requires Angular.js Libraries -->
 <script src="assets/vendor/angular/angular.js"></script>
@@ -22,12 +22,16 @@ Hello World!
 
 <!-- Application files -->
 
+<!-- inject:appJs:js -->
+<script src="application/movies-roulette.module.js"></script>
 <script src="application/modules/core.module.js"></script>
 <script src="application/modules/roulette/roulette.module.js"></script>
-
-<script src="application/movies-roulette.module.js"></script>
 <script src="application/movies-roulette.config.js"></script>
 <script src="application/movies-roulette.states.js"></script>
+<script src="application/modules/roulette/roullete.states.js"></script>
+<script src="application/providers/router-helper.provider.js"></script>
+<script src="application/modules/roulette/controllers/roulette.controller.js"></script>
+<!-- endinject -->
 
 <!-- end / Application files -->
 
